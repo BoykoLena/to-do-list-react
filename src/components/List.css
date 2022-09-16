@@ -1,0 +1,18 @@
+.List {
+  width: 600px;
+  margin: 40px auto;
+}
+
+.List input {
+  border: 3px solid brown;
+  border-radius: 4px;
+  width: 100%;
+  padding: 20px;
+  font-size: 36px;
+}
+
+.List input::placeholder {
+  color: brown;
+  opacity: 0.5;
+  font-style: italic;
+}
