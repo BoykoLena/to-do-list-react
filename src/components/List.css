@@ -4,15 +4,27 @@
 }
 
 .List input {
-  border: 3px solid brown;
-  border-radius: 4px;
-  width: 100%;
-  padding: 20px;
-  font-size: 36px;
+  box-sizing: border-box;
+  background-color: #00204a;
+  border: 3px solid #f70776;
+  color: white;
+  width: 80%;
+  padding: 15px;
+  font-size: 32px;
 }
 
 .List input::placeholder {
-  color: brown;
+  color: #f70776;
   opacity: 0.5;
   font-style: italic;
+}
+
+.List button {
+  box-sizing: border-box;
+  width: 20%;
+  padding: 15px;
+  font-size: 32px;
+  color: white;
+  background-color: #f70776;
+  border: 3px solid #f70776;
 }
