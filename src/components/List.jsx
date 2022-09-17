@@ -1,4 +1,5 @@
 import "./List.css";
+import ToDo from "./ToDo";
 
 function List() {
   return (
@@ -9,6 +10,8 @@ function List() {
           <i className="fa-solid fa-plus"></i>
         </button>
       </form>
+
+      <ToDo />
     </div>
   );
 }

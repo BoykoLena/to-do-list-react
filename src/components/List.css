@@ -3,7 +3,11 @@
   margin: 40px auto;
 }
 
-.List input {
+.List form {
+  margin-bottom: 100px;
+}
+
+.List form input {
   box-sizing: border-box;
   background-color: #00204a;
   border: 3px solid #f70776;
@@ -13,13 +17,13 @@
   font-size: 32px;
 }
 
-.List input::placeholder {
+.List form input::placeholder {
   color: #f70776;
   opacity: 0.5;
   font-style: italic;
 }
 
-.List button {
+.List form button {
   box-sizing: border-box;
   width: 20%;
   padding: 15px;
