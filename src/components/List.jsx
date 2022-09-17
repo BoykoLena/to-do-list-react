@@ -6,7 +6,7 @@ function List() {
       <form>
         <input type="text" placeholder="What needs to be done ?"></input>
         <button>
-          <i class="fa-solid fa-plus"></i>
+          <i className="fa-solid fa-plus"></i>
         </button>
       </form>
     </div>
